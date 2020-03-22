@@ -97,7 +97,7 @@ where
             return Err(NetworkError::OutOfBounds);
         }
 
-        return Ok(());
+        Ok(())
     }
 
     /// Returns the packet's `Ethernet` header if present.
